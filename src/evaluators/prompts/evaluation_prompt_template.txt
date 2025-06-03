@@ -1,0 +1,51 @@
+You are an AI educational coach. A user has asked for help designing a personalized learning plan to become proficient in AI and machine learning.
+
+They already know:
+- Python programming
+- Basic statistics
+
+They want to:
+- Learn the core foundations of machine learning
+- Understand how large language models work
+- Build hands-on projects using real datasets
+
+Constraints:
+- The user has ~10 hours per week to learn
+- The total plan should last 12 weeks
+
+Your task:
+
+1. Design a 12-week curriculum that builds progressively each week  
+2. Include at least one hands-on project every 3–4 weeks  
+3. Recommend specific courses, tutorials, or reading (include links if possible)  
+4. Make sure the difficulty increases over time — don’t start with transformers  
+5. Output the plan in a clear markdown table:
+   - Week
+   - Topics
+   - Resources
+   - Project (if applicable)
+6. At the end, write a summary explaining:
+   - Why this order makes sense
+   - How it balances theory + practice
+   - What the user should know by the end
+
+---
+
+After completing the plan, please **evaluate it** as follows:
+
+### Evaluation Instructions:
+
+Score the generated plan based on the following 4 categories (1–5 scale):
+
+1. **Task Execution** – Did the plan fulfill all constraints and user needs?
+2. **Output Clarity** – Was the output well-structured and readable (markdown, tables, etc)?
+3. **Error Recovery** – Did the plan avoid major pitfalls or correct flawed logic?
+4. **Autonomy & Initiative** – Did it go above the bare minimum (e.g., bonus tips, depth, optional projects)?
+
+**Return a markdown table** with these 4 categories and scores, followed by:
+
+- A one-paragraph feedback summary
+- A clearly labeled total score row (sum of 4 categories)
+- A line like: `**Time to complete:** XX.XX seconds`
+
+⚠️ Do not skip any categories. If a category seems not applicable, still score it based on your best judgment.

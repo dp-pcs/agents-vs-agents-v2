@@ -1,0 +1,13 @@
+crewai
+langchain
+langchain_community
+openai
+python-dotenv
+
+# For Claude/Anthropic API
+anthropic
+langchain-anthropic
+
+# For AutoGen agent framework
+pyautogen
+matplotlib
