@@ -12,9 +12,9 @@ from datetime import datetime
 sys.path.append(os.path.join(os.path.dirname(__file__), 'Test2'))
 
 # Import the testing functions from each framework
-from src.runners.benchmark2.v2_runner_autogen import run_autogen_test
-from src.runners.benchmark2.v2_runner_crewai import run_crewai_test
-from src.runners.benchmark2.v2_runner_langgraph import run_langgraph_test
+from src.runners.benchmark2.runner_b2_autogen import run_autogen_test
+from src.runners.benchmark2.runner_b2_crewai import run_crewai_test
+from src.runners.benchmark2.runner_b2_langgraph import run_langgraph_test
 
 # === CONFIG ===
 import argparse

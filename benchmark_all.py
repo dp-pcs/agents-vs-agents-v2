@@ -11,9 +11,9 @@ from datetime import datetime
 sys.path.append(os.path.join(os.path.dirname(__file__), 'runners/Test2'))
 
 # Import the testing functions from each framework
-from v2_runner_autogen import run_autogen_test
-from v2_runner_crewai import run_crewai_test
-from v2_runner_langgraph import run_langgraph_test
+from runner_b2_autogen import run_autogen_test
+from runner_b2_crewai import run_crewai_test
+from runner_b2_langgraph import run_langgraph_test
 
 # === CONFIG ===
 RESULTS_DIR = os.path.join(os.path.dirname(__file__), 'results')

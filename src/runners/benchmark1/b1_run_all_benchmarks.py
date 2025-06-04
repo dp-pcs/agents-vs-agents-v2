@@ -44,7 +44,7 @@ with open(log_file, "w") as log:
             log.write(f"\n✅ Script {script} completed successfully.\n")
 
     # Run the summary script and log its output
-    summary_script = "src/shared/b1_benchmark_summary.py"
+    summary_script = "src/runners/scoring/b1_benchmark_summary.py"
     log.write(f"\n▶️ Running {summary_script}\n")
     print(f"▶️ Running {summary_script}")
     result = subprocess.run(["python", summary_script, run_folder], stdout=subprocess.PIPE, stderr=subprocess.STDOUT, text=True)

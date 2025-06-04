@@ -7,9 +7,9 @@ from datetime import datetime
 sys.path.append(os.path.dirname(os.path.dirname(os.path.abspath(__file__))))
 
 scripts = [
-    "v2_runner_autogen.py",
-    "v2_runner_crewai.py",
-    "v2_runner_langgraph.py"
+    "runner_b2_autogen.py",
+    "runner_b2_crewai.py",
+    "runner_b2_langgraph.py"
 ]
 
 # Create results/benchmark2 if it doesn't exist
